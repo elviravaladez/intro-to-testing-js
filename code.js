@@ -16,7 +16,7 @@ function helloWorld() {
 // }
 
 function sayHello(input) {
-    if(typeof input === "undefined") {
+    if(typeof input === "undefined" || typeof input === "boolean") {
         return "Hello, World!";
     } else {
         return "Hello, " + input + "!";
