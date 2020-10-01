@@ -77,16 +77,16 @@ describe('isEven', function () {
     it('should return false when executed with isEven("banana")', function () {
         expect(isEven("banana")).toBe(false);
     });
-    it('returns true when called with isEven("8")', function () {
+    it('should return true when called with isEven("8")', function () {
         expect(isEven("8")).toBe(true);
     });
-    it('returns false when called with isEven(Infinity)', function () {
+    it('should return false when called with isEven(Infinity)', function () {
         expect(isEven(Infinity)).toBe(false);
     });
-    it('returns false when called with a boolean input like isEven(true) or isEven(false)', function () {
+    it('should return false when called with a boolean input like isEven(true) or isEven(false)', function () {
         expect(isEven(typeof "boolean")).toBe(false);
     });
-    it('returns false when called without an argument like isEven()', function () {
+    it('should return false when called without an argument like isEven()', function () {
         expect(isEven()).toBe(false);
     });
 });
