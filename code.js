@@ -26,3 +26,12 @@ function sayHello(input) {
 function isFive(input) {
     return typeof input === "boolean" || input === 5;
 }
+
+
+function isEven(input) {
+    if(typeof input  === "boolean" || Number(input) % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
