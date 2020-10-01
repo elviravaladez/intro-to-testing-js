@@ -22,3 +22,7 @@ function sayHello(input) {
         return "Hello, " + input + "!";
     }
 }
+
+function isFive(input) {
+    return typeof input === "boolean" || input === 5;
+}
