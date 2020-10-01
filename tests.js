@@ -37,9 +37,8 @@ describe('sayHello', function () {
     });
     it('should return "Hello, World" when true is passed to sayHello', function() {
         expect(sayHello(true)).toBe("Hello, World!");
-    })
+    });
     it('should return "Hello, World" when false is passed to sayHello', function () {
         expect(sayHello(false)).toBe("Hello, World!");
-    })
+    });
 });
-
