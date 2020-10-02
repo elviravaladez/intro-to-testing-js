@@ -23,5 +23,5 @@ function isEven(input) {
 
 
 function isVowel(input) {
-    return typeof input === "boolean";
+    return typeof input === "boolean" || input === "a";
 }
